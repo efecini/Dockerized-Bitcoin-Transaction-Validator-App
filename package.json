@@ -1,0 +1,15 @@
+{
+  "name": "dockerized-bitcoin-tx-validator",
+  "version": "1.0.0",
+  "description": "A dockerized node.JS app that fetches valid deposits related to customers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Efe Cini",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
