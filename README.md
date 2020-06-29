@@ -11,7 +11,7 @@ Process transactions and filter them for valid deposits:
 1. Read all customers from `customers.json` and store all customers into a MySql database.
 2. Read all transactions from `transactions-1.json` and `transactions-2.json` and store all deposits into a MySql database.
 3. Read deposits from the database that are good to credit to users and prints them.
-4. Read deposits from the database that doesn't belong to customers and print them.
+4. Read deposits from the database that doesn't belong to customers and print the sum of them.
 5. Read the smallest and largest deposits from the database and print them.
 
 **Note**: A deposit is considered valid when it has at least 6 confirmations.
