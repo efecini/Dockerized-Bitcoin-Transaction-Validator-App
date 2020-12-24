@@ -1,6 +1,6 @@
 # A Dockerized Bitcoin Transaction Validator Application
 
-This app contains 2 json files that represent the data from 2 separate calls that is similar to bitcoind rpc call `listsinceblock`. This app processes those files and detects all valid incoming deposits.
+This app contains 2 json files that represent the data from 2 separate calls that is similar to bitcoind rpc call `listsinceblock`. App processes those files and detects all valid incoming deposits.
 
 These instructions do not specify every single detail you should take into consideration. This is done on purpose to test your ability to analyze a problem and come up with a reasonable and safe approach. Keep in mind that your code will determine how much money each customer will get. Thoroughness is one of the most important qualities for this role.
 
